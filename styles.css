@@ -1,10 +1,119 @@
-h1 {
-    font-family: "Emblema One";
+html {
+    font-size: 20px;
+}
+body {
+    /* background-color: rgb(255, 204, 255,0.3); */
+    /* background-color: rgb(228, 160, 247,0.3); */
 }
 
+.title-bar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+header {
+    display: flex;
+    
+    height: 8rem;
+ /* flex-direction: row; */
+ 
+ align-items: center;
+ width: 100vw;
+ background-color: #8B2CE2;
+ margin: 0;
 
+ 
+}
+#logo {
+    /* height: 9rem; */
+    width: 30rem;
+    /* height: 300px; */
+    /* width: 500px; */
+    background-image: url('/images/bw-illustration.png');
+    background-color: #8B2CE2;
+    background-blend-mode: screen;  
+    border: none;
+    box-shadow: none;
+    margin-top: 4em; 
+    margin-bottom: -4em;
+    margin-left: -5em;
+    object-fit: cover;
+}
+h1 {
+    display: flex;
+    flex-grow: 0;
+    font-family: "Emblema One";
+    font-size: 4rem;
+    width: 100vw;
+    /* color:  rgb(178,34,34); */
+    color: white;
+    align-items: center;   
+    margin-left: -1rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    justify-content: center;
+    height: 20vh;
+}
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: -0.1.5em;
+    padding: 0;
+}
+#headshot {
+    margin-top: 3.5em;
+    flex-grow: 0;
+    /* height: 31.2rem; */
+    height: 70vh;
+    margin-left: -.4rem;
 
+ }
+ .blurb {
+    display: flex;
+    font-weight: 200px;
+    font-size: 1.7rem;
+    /* color:  rgb(178,34,34); */
+    color: #49B4C6;
+    font-family: Bebas Neue;
+    margin: 1.5em;
+    align-items: center;
+    line-height: 1.3em;
+    /* rgba(170, 50, 220, 0.6) */
+}
+
+img {
+    height: 40vh;
+    /* box-shadow: 10px 5px 5px  rgb(228, 160, 247,0.3); */
+    border-style: solid;
+    /* border: 3rem black; */
+    border-width: 1em;
+    border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
+    box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
+
+}
 body {
     font-family: "Poppins";
+    
 }
+
+
+
+
+#bio {
+    font-size: 1.6em;
+  }
+
+
+.container-2 {
+    /* background-image: url('/color-illustration.webp'); */
+    /* background-color: #F87900; */
+    /* background-blend-mode: multiply; */
+    color: white;
+    font-weight: 600;
+      }   
+
+footer {
+    color: black;
+}
+
 
