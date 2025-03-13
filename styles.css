@@ -1,5 +1,6 @@
 html {
     font-size: 20px;
+    /* putting background and gradient here should make it expand all the way down */
 }
 
     /* background-color: rgb(255, 204, 255,0.3); */
@@ -100,14 +101,18 @@ body {
 
 #bio {
     font-size: 1.6em;
+    /* display: flex; */
+    /* flex-direction: column; */
   }
 
+.article-top {
 
+  }
 .container-2 {
     /* background-image: url('/color-illustration.webp'); */
     /* background-color: #F87900; */
     /* background-blend-mode: multiply; */
-    color: white;
+    color: black;
     font-weight: 600;
       }   
 
