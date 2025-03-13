@@ -1,15 +1,14 @@
 html {
     font-size: 20px;
 }
-body {
+
     /* background-color: rgb(255, 204, 255,0.3); */
     /* background-color: rgb(228, 160, 247,0.3); */
-}
+
 
 .title-bar {
     display: flex;
-    align-items: center;
-    width: 100vw;
+    
 }
 header {
     display: flex;
