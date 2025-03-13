@@ -10,7 +10,11 @@ html {
     /* background-color: rgb(255, 204, 255,0.3); */
     /* background-color: rgb(228, 160, 247,0.3); */
 
-
+p {
+    background-color: rgba(81, 36, 99, 0.6);
+    border-radius: .7em;
+    padding: 1em;
+}
 .title-bar {
     display: flex;
     
@@ -18,7 +22,7 @@ html {
 header {
     display: flex;
     
-    height: 8rem;
+    height: 10rem;
  /* flex-direction: row; */
  
  align-items: center;
@@ -29,25 +33,53 @@ header {
  
 }
 #logo {
-    height: 30rem;
+    height: 28rem;
     width: 30rem;
-    /* height: 300px; */
-    /* width: 500px; */
+    /* height: auto; */
+    /* width: 100%; */
     background-image: url('/images/bw-illustration.png');
+    /* background-image: 
+    radial-gradient(
+        rgba(255, 204, 255,0.3),
+        rgba(228, 160, 247,0.5), 
+        rgba(81, 36, 99, 0.5)
+    ), 
+    url('/images/bw-illustration.png'); */
+    /* rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3) rgba(81, 36, 99, 0.6); */
     background-color: #8B2CE2;
-    background-blend-mode: screen;  
-    border: none;
-    box-shadow: none;
+    background-blend-mode: multiply;
+    /* rgba(1, 130, 214,.5), 
+    rgba(99, 20, 101, .7),
+    rgba(41, 29, 141,0.7) */
+    /* border: none; */
+    /* box-shadow: none; */
     margin-top: 10em; 
     padding-top: -6em;
     margin-bottom: -4em;
     margin-left: -5em;
     object-fit: cover;
+    /* rgba(1, 130, 214,.5),  */
 }
 h1 {
     display: flex;
     flex-grow: 0;
-    font-family: "Emblema One";
+    /* font-family: "Emblema One"; */
+    /* font-family: "Atomic Age", system-ui; */
+    /* font-family: "Montserrat"; */
+    /* font-family: "Baumans", system-ui; */
+    /* font-family: "Atomic Age", system-ui;this is my fav */
+     /* font-family: "Supermercado One", sans-serif; */
+    /* this one below doesn't break the header */
+    /* font-family: "Bungee Shade", sans-serif;  */
+     /* this one below doesn't break the header */
+    font-family: "Monoton", sans-serif;
+   
+     /* this one below doesn't break the header */
+    /* font-family: "Syncopate", sans-serif; */
+    
+    
+    font-weight: 400;
+    font-style: normal;
     font-size: 4rem;
     width: 100vw;
     /* color:  rgb(178,34,34); */
@@ -62,6 +94,12 @@ h1 {
 
 h2 {
    margin-left: .7em;
+   border-style: solid;
+    border-width: 1rem;
+    border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
+    box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
+    background-color: rgba(81, 36, 99, 0.6);;
+   
 }
 .container-1 {
     display: flex;
@@ -85,10 +123,15 @@ h2 {
     margin-top: 8em;
     /* height: 10em; */
     font-weight: 200px;
-    font-size: 1.7rem;
+    font-size: 2em;
+    /* font-size: 1.7rem; */
+    /* font-size: 1.5em; */
     /* color:  rgb(178,34,34); */
     color: #49B4C6;
-    font-family: Bebas Neue;
+    /* font-family: Bebas Neue; */
+    /* font-family: "Della Respira"; */
+    /* font-family: "Syncopate", sans-serif; */
+    font-family: "Atomic Age", system-ui;
     /* margin: 1.5em; */
     align-items: center;
     line-height: 1.3em;
@@ -99,12 +142,11 @@ img {
     height: 17em;
     /* box-shadow: 10px 5px 5px  rgb(228, 160, 247,0.3); */
     border-style: solid;
-    /* border: 3rem black; */
     border-width: 1em;
     border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
     box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
 
-    border-radius: 10px;
+    border-radius: .5em;
 
 }
 
@@ -118,15 +160,18 @@ body {
 
 /* this is the parent container of all the image + p pairing sections */
 #bio {
-    font-size: 1.6em;
+    font-size: 1.7em;
     display: flex;
     flex-direction: column;
+    /* font-family: "Raleway"; */
+    font-family: "Baumans", system-ui;
   }
 
 .image-bio-pairings {
     display: flex; 
     gap: 100px;
     margin: 30px;
+    align-items: center;
   }
  .reverse{
     flex-direction: row-reverse;
