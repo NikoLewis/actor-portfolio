@@ -112,18 +112,20 @@ h2 {
     gap: 0;
     /* margin: 30px; */
     /* flex-grow: 0; */
+    margin-bottom: 4em;
     height: 30rem;
     /* height: 70vh; */
     /* margin-left: -.4rem; */
 
  }
- .blurb {
+ #blurb {
     display: flex;
     flex-grow: 0;
-    margin-top: 8em;
+    margin-top: 3em;
     /* height: 10em; */
     font-weight: 200px;
     font-size: 2em;
+    margin-bottom: 2em;
     /* font-size: 1.7rem; */
     /* font-size: 1.5em; */
     /* color:  rgb(178,34,34); */
@@ -170,7 +172,9 @@ body {
 .image-bio-pairings {
     display: flex; 
     gap: 100px;
-    margin: 30px;
+    /* margin: 20px; */
+    margin-bottom: -75px;
+    /* margin-top: -10px; */
     align-items: center;
   }
  .reverse{
@@ -186,6 +190,17 @@ body {
 
 footer {
     color: white;
+    /* display: flex; */
 }
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5em;
+    text-decoration: none;
 
+}
+li {
+    text-decoration: none;
+}
 
