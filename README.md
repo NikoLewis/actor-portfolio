@@ -1,17 +1,14 @@
 # Actors Bio Page
-
 ---
 
 #### An About Me website for an expressive and creative professional, that want to inject personality to their introduction with their of love sci-fi and futuristic stories.
 
 ## About me
-
 ---
 
 Hey there I'm Niko, I’m a NYC-based software engineer that loves incorporating the magic of storytelling into digital products and projects.
 
 ## Requirments
-
 ---
 
 [enter assignment infor here]
@@ -19,21 +16,12 @@ Hey there I'm Niko, I’m a NYC-based software engineer that loves incorporating
 
 
 
-
-
-
-
-
-
-
 ## Design Goals and Bio inspo
-
 ---
 
 Client is an aspiring actress that has an impressive athletic background. I aimed to match the elegance of her professional photos, with her favorite colors (purple and pink), and went for a mature futuristic cyber punk themes to uplift her loive of sci-fi movies and aim to eventually act in similar 'out of this world' adventures.
 
 ### Built With
-
 ---
 
 - HTML
@@ -49,7 +37,6 @@ Client is an aspiring actress that has an impressive athletic background. I aime
 
 
 ## Deliverables
-
 ---
 
 * [Lo-fi Figma Design Wireframes](#)
@@ -61,7 +48,6 @@ Client is an aspiring actress that has an impressive athletic background. I aime
 
 
 ### Food for Thought
-
 ---
 
 
