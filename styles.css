@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+    /* font-size: 20px; */
     /* putting background and gradient here should make it expand all the way down */
    background-attachment: fixed;
      background-image: url(/images/photo-1519608487953-e999c86e7455.jpg);
@@ -33,9 +33,9 @@ header {
  
 }
 #logo {
-    height: 28rem;
-    width: 30rem;
-    /* height: auto; */
+    height: 500px;
+    width: 800px;
+    /* height: 100%; */
     /* width: 100%; */
     background-image: url('/images/bw-illustration.png');
     /* background-image: 
@@ -189,6 +189,7 @@ body {
       }   
 
 footer {
+    margin-top: 7em;
     color: white;
     /* display: flex; */
 }
