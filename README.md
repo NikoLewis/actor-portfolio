@@ -1,25 +1,24 @@
 # Actors Bio Page
 ---
 
-#### An About Me website for an expressive and creative professional, that want to inject personality to their introduction with their of love sci-fi and futuristic stories.
+#### An About Me website for an expressive and creative professional, that wants to inject personality to their introduction with their of love sci-fi and futuristic stories.
 
 ### About me
 ---
 
 Hey there I'm Niko, I’m a NYC-based software engineer that loves incorporating the magic of storytelling into digital products and projects.
 
+> Telling weak stories with technology is like giving a bad guitar player a bigger amplifier.” — Dr Jason Ohler, digital humanist
+
 ### Requirments
 ---
 
 [enter assignment infor here]
 
-
-
-
 ### Design Goals and Bio inspo
 ---
 
-Client is an aspiring actress that has an impressive athletic background. I aimed to match the elegance of her professional photos, with her favorite colors (purple and pink), and went for a mature futuristic cyber punk themes to uplift her loive of sci-fi movies and aim to eventually act in similar 'out of this world' adventures.
+Client is a talented aspiring actress that has an impressive athletic background. I aimed to match the elegance of her professional photos, with her favorite colors (purple and pink), and went for a mature futuristic cyberpunk theme to uplift her love of sci-fi dramas and her aim to eventually act in similar 'out of this world' adventures.
 
 ### Built With
 ---
@@ -32,30 +31,17 @@ Client is an aspiring actress that has an impressive athletic background. I aime
 
 - Background image courtesy of 
 
-
-
-
-
-### Deliverables
+### Additional Deliverables
 ---
 
-* [Lo-fi Figma Design Wireframes](#)
-
-* [Hi-fi Figma Design Wireframes](#)
-
-* [Deployed Webpage](#)
+* [Lo-fi and Hi-fi Figma Design Wireframes]('https://www.figma.com/design/Om7rb3kEGbe0k7ANXHuYSo/Niko-L's-Actor-Portfolio-Project?node-id=15-2&t=kA0YLRjRGFjFB3g4-1')
 
 
-
-### Food for Thought
+### Want to build something amazing together?
 ---
 
-
+Reach out to  me at [nikolewis@pursuit.org]('nikolewis@pursuit.org').
 
 > Our imagination always outpaces our technology. The gap between the two is the distance the creative spark must jump in order to ignite our forward momentum" — Dr Jason Ohler, digital humanist
-> 
-> 
-
-> Telling weak stories with technology is like giving a bad guitar player a bigger amplifier.” — Dr Jason Ohler, digital humanist
 
 
