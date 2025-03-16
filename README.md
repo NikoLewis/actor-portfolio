@@ -3,7 +3,7 @@
 
 #### An About Me website for an expressive and creative professional, that wants to inject personality to their introduction with their of love sci-fi and futuristic stories.
 
-[View project preview here]('https://www.awesomescreenshot.com/video/37678506?key=6351eb4b14f7d7ebed22b320c464ad31')
+[View project preview here](https://www.awesomescreenshot.com/video/37678506?key=6351eb4b14f7d7ebed22b320c464ad31)
 
 ### About me
 ---
@@ -36,13 +36,13 @@ Client is a talented aspiring actress that has an impressive athletic background
 ### Additional Deliverables
 ---
 
-* [Lo-fi and Hi-fi Figma Design Wireframes]('https://www.figma.com/design/Om7rb3kEGbe0k7ANXHuYSo/Niko-L's-Actor-Portfolio-Project?node-id=15-2&t=kA0YLRjRGFjFB3g4-1')
+* [Lo-fi and Hi-fi Figma Design Wireframes](https://www.figma.com/design/Om7rb3kEGbe0k7ANXHuYSo/Niko-L's-Actor-Portfolio-Project?node-id=15-2&t=kA0YLRjRGFjFB3g4-1)
 
 
 ### Want to build something amazing together?
 ---
 
-Reach out to  me at [nikolewis@pursuit.org]('nikolewis@pursuit.org').
+Reach out to  me at [nikolewis@pursuit.org](nikolewis@pursuit.org).
 
 > Our imagination always outpaces our technology. The gap between the two is the distance the creative spark must jump in order to ignite our forward momentum" — Dr Jason Ohler, digital humanist
 
