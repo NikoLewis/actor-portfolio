@@ -1,207 +1,409 @@
-html {
-    /* font-size: 20px; */
-    /* putting background and gradient here should make it expand all the way down */
-   background-attachment: fixed;
-     background-image: url(/images/photo-1519608487953-e999c86e7455.jpg);
-    /*  background-image: url(/images/photo-1653549892808-aa48a0a18ee6.jpg); */
-   
-}
-
-    /* background-color: rgb(255, 204, 255,0.3); */
-    /* background-color: rgb(228, 160, 247,0.3); */
-
-p {
-    background-color: rgba(81, 36, 99, 0.6);
-    border-radius: .7em;
-    padding: 1em;
-}
-.title-bar {
-    display: flex;
-    
-}
-header {
-    display: flex;
-    
-    height: 10rem;
- /* flex-direction: row; */
- 
- align-items: center;
- width: 100vw;
- background-color: #8B2CE2;
- margin: 0;
-
- 
-}
-#logo {
-    height: 500px;
-    width: 800px;
-    /* height: 100%; */
-    /* width: 100%; */
-    background-image: url('/images/bw-illustration.png');
-    /* background-image: 
-    radial-gradient(
-        rgba(255, 204, 255,0.3),
-        rgba(228, 160, 247,0.5), 
-        rgba(81, 36, 99, 0.5)
-    ), 
-    url('/images/bw-illustration.png'); */
-    /* rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3) rgba(81, 36, 99, 0.6); */
-    background-color: #8B2CE2;
-    background-blend-mode: multiply;
-    /* rgba(1, 130, 214,.5), 
-    rgba(99, 20, 101, .7),
-    rgba(41, 29, 141,0.7) */
-    /* border: none; */
-    /* box-shadow: none; */
-    margin-top: 10em; 
-    padding-top: -6em;
-    margin-bottom: -4em;
-    margin-left: -5em;
-    object-fit: cover;
-    /* rgba(1, 130, 214,.5),  */
-}
-h1 {
-    display: flex;
-    flex-grow: 0;
-    /* font-family: "Emblema One"; */
-    /* font-family: "Atomic Age", system-ui; */
-    /* font-family: "Montserrat"; */
-    /* font-family: "Baumans", system-ui; */
-    /* font-family: "Atomic Age", system-ui;this is my fav */
-     /* font-family: "Supermercado One", sans-serif; */
-    /* this one below doesn't break the header */
-    /* font-family: "Bungee Shade", sans-serif;  */
-     /* this one below doesn't break the header */
-    font-family: "Monoton", sans-serif;
-   
-     /* this one below doesn't break the header */
-    /* font-family: "Syncopate", sans-serif; */
-    
-    
-    font-weight: 400;
-    font-style: normal;
-    font-size: 4rem;
-    width: 100vw;
-    /* color:  rgb(178,34,34); */
-    color: white;
-    align-items: center;   
-    margin-left: -1rem;
-    padding-left: 3rem;
-    padding-right: 4rem;
-    justify-content: center;
-    height: 20vh;
-}
-
-h2 {
-   margin-left: .7em;
-   border-style: solid;
-    border-width: 1rem;
-    border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
-    box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
-    background-color: rgba(81, 36, 99, 0.6);;
-   
-}
-.container-1 {
-    display: flex;
-    /* justify-content: space-around; */
-    /* margin: -0.1.5em; */
-    /* padding: 0; */
-}
-#headshot {
-    margin: 6em 0 0 16em;
-    gap: 0;
-    /* margin: 30px; */
-    /* flex-grow: 0; */
-    margin-bottom: 4em;
-    height: 30rem;
-    /* height: 70vh; */
-    /* margin-left: -.4rem; */
-
- }
- #blurb {
-    display: flex;
-    flex-grow: 0;
-    margin-top: 3em;
-    /* height: 10em; */
-    font-weight: 200px;
-    font-size: 2em;
-    margin-bottom: 2em;
-    /* font-size: 1.7rem; */
-    /* font-size: 1.5em; */
-    /* color:  rgb(178,34,34); */
-    color: #49B4C6;
-    /* font-family: Bebas Neue; */
-    /* font-family: "Della Respira"; */
-    /* font-family: "Syncopate", sans-serif; */
-    font-family: "Atomic Age", system-ui;
-    /* margin: 1.5em; */
-    align-items: center;
-    line-height: 1.3em;
-    /* rgba(170, 50, 220, 0.6) */
-}
-
-img {
-    height: 17em;
-    /* box-shadow: 10px 5px 5px  rgb(228, 160, 247,0.3); */
-    border-style: solid;
-    border-width: 1em;
-    border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
-    box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
-
-    border-radius: .5em;
-
-}
-
-
 body {
-    font-family: "Poppins";
+    max-width: 1920px;
+}
+@media (width <= 390px) {
+ 
+    html {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        background-attachment: fixed;
+        background-image: url(/images/photo-1653549892808-aa48a0a18ee6.jpg);       
+        margin: -10px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: -10px;
+           
+    }
+    main {
+        margin: 2em;
+    }
+    .title-bar {
+        display: flex;
+        /* justify-content: center;    */
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        display: flex;
+        height: 7em;
+        align-items: center;
+        background-color: #8B2CE2;
+        width: 100vw;
+        /*margin shorthand property values order: top margin, right margin,bottom margin,left margin*/
+        margin: 0;
+        padding: 0;
+        justify-content: center; 
+    }
+    #logo {
+        visibility: hidden;    
+    }
+    h1 {
+        display: flex;
+        flex-grow: 0;
+        font-family: "Emblema One";
+        font-weight: 500;
+        font-style: normal;
+        font-size: 3em;
+        /* width: 100vw; */
+        margin: 0;
+        margin-left: -.5em;
+        padding: 0;   
+        color: white;
+        /* justify-content: center; */    
+    }
+    /* .container-2 is the parent to .container-1 */
+    /* .container-1 styling begins here */
+   
+    .container-1 {
+        display: flex;
+        background-color: pink;
+        /* justify-content: space-around; */
+        /* margin: -0.1.5em; */
+        /* padding: 0;
+    } 
+    #headshot {
+        margin: 6em 0 0 16em;
+        gap: 0;
+        /* margin: 30px; */
+        /* flex-grow: 0; */
+        margin-bottom: 4em;
+        height: 30rem;
+        /* height: 70vh; */
+        /* margin-left: -.4rem; */
     
-}
-
-
-
-/* this is the parent container of all the image + p pairing sections */
-#bio {
-    font-size: 1.7em;
-    display: flex;
-    flex-direction: column;
-    /* font-family: "Raleway"; */
-    font-family: "Baumans", system-ui;
+     }
+    
+     #intro{
+        font-size: 1.7em;
+        display: flex;
+        flex-direction: column;
+     }
+     .blurb {
+        display: flex;
+        flex-grow: 0;
+        margin-top: 3em;
+        /* height: 10em; */
+        font-weight: 200px;
+        /* font-size: 2em; */
+        margin-bottom: 2em;
+        font-size: 1.7rem;
+        /* font-size: 1.5em; */
+        /* color:  rgb(178,34,34); */
+        color: #49B4C6;
+        /* font-family: Bebas Neue; */
+        /* font-family: "Della Respira"; */
+        /* font-family: "Syncopate", sans-serif; */
+        /* font-family: "Atomic Age", system-ui; */
+         font-family: "Baumans", system-ui;
+        /* margin: 1.5em; */
+        align-items: center;
+        line-height: 1.3em;
+        /* rgba(170, 50, 220, 0.6) */
+    }
+    h4 {
+        margin-left: .2em;
+        border-style: solid;
+         border-width: 1rem;
+         border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
+         box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
+         background-color: rgba(81, 36, 99, 0.6);;
+         font-family: "Atomic Age", system-ui;
+         border-radius: 15px;
+         padding: 1em;
+        
+     }
+     p {
+         background-color: rgba(81, 36, 99, 0.6);
+         border-radius: .7em;
+         padding: 1em;
+     }
+  
+    img {
+        height: 17em;
+        /* box-shadow: 10px 5px 5px  rgb(228, 160, 247,0.3); */
+        border-style: solid;
+        border-width: 1em;
+        border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
+        box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
+    
+        border-radius: .5em;
+    
+    }
+    #narrow-img {
+        object-fit: contain; 
+    }
+    
+    /* this is the parent container of all the image + p pairing sections */
+    #bio {
+        font-size: 1.7em;
+        display: flex;
+        flex-direction: column;
+        font-family: "Raleway";
+        /* font-family: "Baumans", system-ui; */
+        background-color: aqua;
+      }
+    
+    .image-bio-pairings {
+        display: flex; 
+        gap: 100px;
+        /* margin: 20px; */
+        margin-bottom: -75px;
+        /* margin-top: -10px; */
+        align-items: center;
+      }
+     .reverse{
+        flex-direction: row-reverse;
+      }
+    .container-2 {
+        /* background-image: url('/color-illustration.webp'); */
+        /* background-color: #F87900; */
+        /* background-blend-mode: multiply; */
+        color: white;
+        font-weight: 600;
+          }   
+    
+    footer {
+        margin-top: 7em;
+        color: white;
+        /* display: flex; */
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        font-size: 1.5em;
+        text-decoration: none;
+    
+    }
+    li {
+        text-decoration: none;
+    }
   }
 
-.image-bio-pairings {
-    display: flex; 
-    gap: 100px;
-    /* margin: 20px; */
-    margin-bottom: -75px;
-    /* margin-top: -10px; */
-    align-items: center;
+  /* This will be a media query that is tablet friendly */
+@media (min-width: 30em) and (max-width: 899px) {
+    /* … */
   }
- .reverse{
-    flex-direction: row-reverse;
+
+  /* avg small laptop screen is 1400 x 900 px according to my research */
+@media (min-width: 1439px) {
+    html {
+        /* font-size: 20px; */
+        /* putting background and gradient here should make it expand all the way down */
+       background-attachment: fixed;
+         background-image: url(/images/photo-1519608487953-e999c86e7455.jpg);
+        /*  background-image: url(/images/photo-1653549892808-aa48a0a18ee6.jpg); */
+       
+    }
+   
+    
+        /* background-color: rgb(255, 204, 255,0.3); */
+        /* background-color: rgb(228, 160, 247,0.3); */
+    
+    p {
+        background-color: rgba(81, 36, 99, 0.6);
+        border-radius: .7em;
+        padding: 1em;
+    }
+    .title-bar {
+        display: flex;
+        
+    }
+    header {
+        display: flex;
+        
+        height: 10rem;
+     /* flex-direction: row; */
+     
+     align-items: center;
+     width: 100vw;
+     background-color: #8B2CE2;
+     margin: 0;
+    
+     
+    }
+    #logo {
+        height: 500px;
+        width: 800px;
+        /* height: 100%; */
+        /* width: 100%; */
+        background-image: url('/images/bw-illustration.png');
+        /* background-image: 
+        radial-gradient(
+            rgba(255, 204, 255,0.3),
+            rgba(228, 160, 247,0.5), 
+            rgba(81, 36, 99, 0.5)
+        ), 
+        url('/images/bw-illustration.png'); */
+        /* rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3) rgba(81, 36, 99, 0.6); */
+        background-color: #8B2CE2;
+        background-blend-mode: multiply;
+        /* rgba(1, 130, 214,.5), 
+        rgba(99, 20, 101, .7),
+        rgba(41, 29, 141,0.7) */
+        /* border: none; */
+        /* box-shadow: none; */
+        margin-top: 10em; 
+        padding-top: -6em;
+        margin-bottom: -4em;
+        margin-left: -5em;
+        object-fit: cover;
+        /* rgba(1, 130, 214,.5),  */
+    }
+    h1 {
+        display: flex;
+        flex-grow: 0;
+        /* font-family: "Emblema One"; */
+        /* font-family: "Atomic Age", system-ui; */
+        /* font-family: "Montserrat"; */
+        /* font-family: "Baumans", system-ui; */
+        /* font-family: "Atomic Age", system-ui;this is my fav */
+         /* font-family: "Supermercado One", sans-serif; */
+        /* this one below doesn't break the header */
+        /* font-family: "Bungee Shade", sans-serif;  */
+         /* this one below doesn't break the header */
+        font-family: "Monoton", sans-serif;
+       
+         /* this one below doesn't break the header */
+        /* font-family: "Syncopate", sans-serif; */
+        
+        
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        width: 100vw;
+        /* color:  rgb(178,34,34); */
+        color: white;
+        align-items: center;   
+        margin-left: -1rem;
+        padding-left: 3rem;
+        padding-right: 4rem;
+        justify-content: center;
+        height: 20vh;
+    }
+    
+    h4 {
+       margin-left: .2em;
+       border-style: solid;
+        border-width: 1rem;
+        border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
+        box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
+        background-color: rgba(81, 36, 99, 0.6);;
+        font-family: "Atomic Age", system-ui;
+        border-radius: 15px;
+        padding: 1em;
+       
+    }
+    .container-1 {
+        display: flex;
+        /* justify-content: space-around; */
+        /* margin: -0.1.5em; */
+        /* padding: 0; */
+    }
+    #headshot {
+        margin: 6em 0 0 16em;
+        gap: 0;
+        /* margin: 30px; */
+        /* flex-grow: 0; */
+        margin-bottom: 4em;
+        height: 30rem;
+        /* height: 70vh; */
+        /* margin-left: -.4rem; */
+    
+     }
+    
+     #intro{
+        font-size: 1.7em;
+        display: flex;
+        flex-direction: column;
+     }
+     .blurb {
+        display: flex;
+        flex-grow: 0;
+        margin-top: 3em;
+        /* height: 10em; */
+        font-weight: 200px;
+        /* font-size: 2em; */
+        margin-bottom: 2em;
+        font-size: 1.7rem;
+        /* font-size: 1.5em; */
+        /* color:  rgb(178,34,34); */
+        color: #49B4C6;
+        /* font-family: Bebas Neue; */
+        /* font-family: "Della Respira"; */
+        /* font-family: "Syncopate", sans-serif; */
+        /* font-family: "Atomic Age", system-ui; */
+         font-family: "Baumans", system-ui;
+        /* margin: 1.5em; */
+        align-items: center;
+        line-height: 1.3em;
+        /* rgba(170, 50, 220, 0.6) */
+    }
+    
+    main {
+        margin: 17px;
+    }
+    img {
+        height: 17em;
+        /* box-shadow: 10px 5px 5px  rgb(228, 160, 247,0.3); */
+        border-style: solid;
+        border-width: 1em;
+        border-color:   rgb(228, 160, 247,0.3) rgb(255, 204, 255,0.3);
+        box-shadow: 10px 10px 10px 10px rgba(81, 36, 99, 0.6);
+    
+        border-radius: .5em;
+    
+    }
+    #narrow-img {
+        object-fit: contain; 
+    }
+    
+    /* this is the parent container of all the image + p pairing sections */
+    #bio {
+        font-size: 1.7em;
+        display: flex;
+        flex-direction: column;
+        font-family: "Raleway";
+        /* font-family: "Baumans", system-ui; */
+      }
+    
+    .image-bio-pairings {
+        display: flex; 
+        gap: 100px;
+        /* margin: 20px; */
+        margin-bottom: -75px;
+        /* margin-top: -10px; */
+        align-items: center;
+      }
+     .reverse{
+        flex-direction: row-reverse;
+      }
+    .container-2 {
+        /* background-image: url('/color-illustration.webp'); */
+        /* background-color: #F87900; */
+        /* background-blend-mode: multiply; */
+        color: white;
+        font-weight: 600;
+          }   
+    
+    footer {
+        margin-top: 7em;
+        color: white;
+        /* display: flex; */
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        font-size: 1.5em;
+        text-decoration: none;
+    
+    }
+    li {
+        text-decoration: none;
+    }
+    
   }
-.container-2 {
-    /* background-image: url('/color-illustration.webp'); */
-    /* background-color: #F87900; */
-    /* background-blend-mode: multiply; */
-    color: white;
-    font-weight: 600;
-      }   
-
-footer {
-    margin-top: 7em;
-    color: white;
-    /* display: flex; */
-}
-ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    font-size: 1.5em;
-    text-decoration: none;
-
-}
-li {
-    text-decoration: none;
-}
-
