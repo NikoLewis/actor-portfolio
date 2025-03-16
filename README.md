@@ -42,7 +42,7 @@ Client is a talented aspiring actress that has an impressive athletic background
 ### Want to build something amazing together?
 ---
 
-Reach out to  me at [nikolewis@pursuit.org](nikolewis@pursuit.org).
+Reach out to  me at [nikolewis01@gmail.com](nikolewis01@gmail.com).
 
 > Our imagination always outpaces our technology. The gap between the two is the distance the creative spark must jump in order to ignite our forward momentum" — Dr Jason Ohler, digital humanist
 
