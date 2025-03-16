@@ -3,6 +3,8 @@
 
 #### An About Me website for an expressive and creative professional, that wants to inject personality to their introduction with their of love sci-fi and futuristic stories.
 
+[View project preview here]('https://www.awesomescreenshot.com/video/37678506?key=6351eb4b14f7d7ebed22b320c464ad31')
+
 ### About me
 ---
 
