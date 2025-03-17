@@ -15,7 +15,9 @@ Hey there I'm Niko, I’m a NYC-based software engineer that loves incorporating
 ### Requirments
 ---
 
-[enter assignment infor here]
+ - Lo-fi wireframe and hi-fi mockup created for your client's "About Me" page.
+
+ - Well-organized github repo link, with regular commits, accurate descriptions in the commit messages, and comments explaining design and coding decisions.
 
 ### Design Goals and Bio inspo
 ---
