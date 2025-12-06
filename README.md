@@ -1,51 +1,75 @@
-# Actors Bio Page
+# 🚀 Actor Portfolio: Transcendent Starship
+
+> **"Initiating visual uplink... The future of your creative portfolio is here."** 🌌
+
+Welcome to the **Transcendent Starship**, a next-gen, dark-futuristic interface designed to transmit talent across the galaxy. This responsive web application combines a sleek, neon-noir aesthetic with high-performance code, ensuring your headshots and reels look stunning on any device—from handheld datapads to orbital workstations.
+
 ---
 
-#### An About Me website for an expressive and creative professional, that wants to inject personality to their introduction with their of love sci-fi and futuristic stories.
+## 📡 Signal Transmission (Demos & Links)
 
-[View project preview here](https://www.awesomescreenshot.com/video/37678506?key=6351eb4b14f7d7ebed22b320c464ad31)
+Establish a secure connection to the live systems below:
 
-### About me
+| Uplink | Coordinates |
+| :--- | :--- |
+| **📼 Holo-Log (Video Preview)** | [**Initialize Walkthrough**](https://www.awesomescreenshot.com/video/37678506?key=6351eb4b14f7d7ebed22b320c464ad31) |
+| **🪐 Live Frequency** | [**transcendent-starship.netlify.app**](https://transcendent-starship-32b256.netlify.app/) |
+| **💾 Source Code** | [**github.com/NikoLewis/actor-portfolio**](https://github.com/NikoLewis/actor-portfolio) |
+
 ---
 
-Hey there I'm Niko, I’m a NYC-based software engineer that loves incorporating the magic of storytelling into digital products and projects.
+## 🦾 System Capabilities (Features)
 
-> Telling weak stories with technology is like giving a bad guitar player a bigger amplifier.” — Dr Jason Ohler, digital humanist
+* **Cyber-Noir Aesthetic:** A deep space, dark-mode design that puts the focus purely on the talent.
+* **Responsive Hull:** The interface adapts fluidly to any viewport size, ensuring zero data loss on mobile or desktop.
+* **Asset Rendering:** High-fidelity display for headshots and showreels, optimized for speed.
+* **Direct Neural Link:** Integrated contact forms and social uplinks for immediate casting communication.
+* **Performance Optimized:** Built with modern tech for warp-speed load times.
 
-### Requirments
 ---
 
- - Lo-fi wireframe and hi-fi mockup created for your client's "About Me" page.
+## ⚙️ Ship Core (Tech Stack)
 
- - Well-organized github repo link, with regular commits, accurate descriptions in the commit messages, and comments explaining design and coding decisions.
+Powered by advanced web technologies:
 
-### Design Goals and Bio inspo
+* **React:** The central processor for dynamic UI rendering.
+* **Tailwind CSS:** Utility-first styling for rapid, futuristic design implementation.
+* **Vite:** Next-generation frontend tooling for instantaneous build sequences.
+* **Netlify:** High-availability global hosting.
+
 ---
 
-Client is a talented aspiring actress that has an impressive athletic background. I aimed to match the elegance of her professional photos, with her favorite colors (purple and pink), and went for a mature futuristic cyberpunk theme to uplift her love of sci-fi dramas and her aim to eventually act in similar 'out of this world' adventures.
+## 🔌 Initialization Sequence (Local Setup)
 
-### Built With
+To spin up a local instance of the portfolio simulation:
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/NikoLewis/actor-portfolio.git](https://github.com/NikoLewis/actor-portfolio.git)
+    cd actor-portfolio
+    ```
+
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Engage Thrusters:**
+    ```bash
+    npm run dev
+    ```
+    Access the local interface at `http://localhost:5173` (or the terminal-specified port).
+
 ---
 
-- HTML
+## 📟 Open Hailing Frequencies
 
-- CSS
+Ready to collaborate or open a casting channel?
 
-- Logo ilustration sourced from
+* **Comms (Email):** `nikolewis@pursuit.org`
+* **Data Profile (LinkedIn):** [linkedin.com/in/nikolewis](https://www.linkedin.com/in/nikolewis)
+* **Code Base (GitHub):** [@NikoLewis](https://github.com/NikoLewis)
 
-- Background image courtesy of 
-
-### Additional Deliverables
 ---
 
-* [Lo-fi and Hi-fi Figma Design Wireframes](https://www.figma.com/design/Om7rb3kEGbe0k7ANXHuYSo/Niko-L's-Actor-Portfolio-Project?node-id=15-2&t=kA0YLRjRGFjFB3g4-1)
-
-
-### Want to build something amazing together?
----
-
-Reach out to  me at [nikolewis01@gmail.com](nikolewis01@gmail.com).
-
-> Our imagination always outpaces our technology. The gap between the two is the distance the creative spark must jump in order to ignite our forward momentum" — Dr Jason Ohler, digital humanist
-
-
+*End of Transmission.* 🛸
